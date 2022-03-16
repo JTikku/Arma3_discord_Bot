@@ -128,4 +128,4 @@ async def clearbotmessages(ctx, limit=0, chan = servustatus):
 # async def ServerStatus_error(ctx, error):
     # print("Sorry, you do not have permissions to do that!")
     # #await ctx.send("Sorry, you do not have permissions to do that!")
-client.run("ODcyNzY1MDU2NTUzNzEzNzQ3.YQunzA.hQFGc9XW4c0nSSBr6y-gBVqfZ5w")
+client.run("")
