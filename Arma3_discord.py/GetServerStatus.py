@@ -11,7 +11,7 @@ import os.path
 
 # keepLooping = true
 # port needs to be Query Port
-address = ("157.90.34.159", 2383)
+address = ()
 
 PingMessage = None
 embedMessage = None
