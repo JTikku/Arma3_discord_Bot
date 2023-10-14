@@ -116,5 +116,5 @@ async def clearbotmessages(ctx, limit=0, chan = servustatus):
     await Curchannel.delete_messages(msg)
     #await ctx.send(f"Purged {limit} messages of {client.user.mention}", delete_after=3)
 
-# need discor bot id 
+# need discord bot id 
 client.run("Discord_Bot_ID")
