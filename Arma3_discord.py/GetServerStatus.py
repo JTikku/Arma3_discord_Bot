@@ -10,7 +10,7 @@ import os.path
 # https://github.com/Yepoleb/python-a2s
 # keepLooping = true
 # IP, Port
-address = ("IP", 0000)
+address = ("Our_IP", 0000)
 
 PingMessage = None
 embedMessage = None
