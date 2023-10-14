@@ -88,14 +88,6 @@ async def ResetServerStatus(ctx, chan = servustatus, pinged = defaultPinged):
     await clearbotmessages(ctx, 3, chan)
     await ServerStatus(ctx, chan, pinged)
     
-# re write
-# # ResetServerStatusID
-# @client.command()
-# @commands.has_permissions(manage_channels=True)
-# async def ResetServerStatusID(ctx, ID = embedMessageID, chan = servustatus, pinged = defaultPinged):
-    # embedMessageID = ID
-    # await ServerStatus(ctx, chan, pinged)
-
 # shutdown
 @client.command()
 @commands.has_permissions(administrator=True)
@@ -124,8 +116,5 @@ async def clearbotmessages(ctx, limit=0, chan = servustatus):
     await Curchannel.delete_messages(msg)
     #await ctx.send(f"Purged {limit} messages of {client.user.mention}", delete_after=3)
 
-# @ServerStatus.error
-# async def ServerStatus_error(ctx, error):
-    # print("Sorry, you do not have permissions to do that!")
-    # #await ctx.send("Sorry, you do not have permissions to do that!")
-client.run("")
+    
+client.run("Discord_Bot_ID")
